@@ -1,13 +1,14 @@
 import org.bukkit.plugin.java.JavaPlugin;
+import java.util.logging.Logger;
 
 public class Burning extends JavaPlugin {
     @Override
     public void onDisable() {
-        super.onDisable();
+        getLogger().info("burning plugin off");
     }
 
     @Override
     public void onEnable() {
-        super.onEnable();
+        getLogger().info("burning plugin on");
     }
 }
