@@ -1,0 +1,7 @@
+name: BurningPlugin
+version: 1.0.0
+main: com.burning.BurningPlugin
+description: BurningPlugin plugin
+author: CodingApe9
+website: https://papermc.io/
+api-version: '1.18'
